@@ -18,19 +18,12 @@ package com.brucelee.javapatterns.singleton;
  * @date 2015-3-24 下午5:30:48 
  *  
  */
-public class Singleton {//懒汉式，存在线程安全问题，多线程环境下会出现线程安全问题
-	private Singleton instance=null;
+public class Singleton {//饿汉式不存在线程安全问题
+	private Singleton instance=new Singleton();
 	private Singleton(){	
 		
 	}
 	public Singleton getInstance(){
-		if(instance==null){
-			instance=new Singleton();
-		}
-		return instance;
-	}
-	//如果对象被序列化,可以保证对象序列化前后保持一致
-	public Object readSolve(){
 		return instance;
 	}
 }
