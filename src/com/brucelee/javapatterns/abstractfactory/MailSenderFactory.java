@@ -1,4 +1,10 @@
 package com.brucelee.javapatterns.abstractfactory;
+
+import com.brucelee.javapatterns.factorymethod.MailSender;
+
+import com.brucelee.javapatterns.factorymethod.Sender;
+
+
 /**
  * 
 * @ClassName: MailSenderFactory 

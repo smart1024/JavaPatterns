@@ -1,4 +1,7 @@
 package com.brucelee.javapatterns.abstractfactory;
+
+import com.brucelee.javapatterns.factorymethod.Sender;
+
 /**
 * @ClassName: SendFactory 
 * @Description: 抽象工厂：避免了工厂方法模式,如果增加一类发送者，就必须修改工厂类,违背了开闭原则（Open Close Principle）(对拓展开放，对修改关闭)

@@ -7,6 +7,9 @@
 */
 package com.brucelee.javapatterns.abstractfactory;
 
+import com.brucelee.javapatterns.factorymethod.Sender;
+import com.brucelee.javapatterns.factorymethod.SmsSender;
+
 /** 
  * @ClassName: SmsSenderFactory 
  * @Description: 消息发送工厂
