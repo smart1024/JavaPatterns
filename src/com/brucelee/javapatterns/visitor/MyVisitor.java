@@ -18,7 +18,7 @@ public class MyVisitor implements Visitor {
 
 	
 	@Override
-	public void visit(Subject sub) {
+	public void visit(Subject sub) {//getSubject()获取将要被访问的属性，
 		System.out.println("Visit the Subjects "+sub.getSubject());
 	}
 
