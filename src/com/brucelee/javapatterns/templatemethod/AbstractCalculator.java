@@ -9,7 +9,7 @@ package com.brucelee.javapatterns.templatemethod;
 
 /** 
  * @ClassName: AbstractCalculator 
- * @Description: 模板方法 
+ * @Description: 模板方法 ：父类提供一个或多个抽象的方法的，具体的实现交给子类根据自己的情况完成
  * @author robertlee1059@163.com 
  * @date 2015-3-31 下午1:46:42 
  *  
